@@ -13,3 +13,14 @@ maintainers:
           - chcost
           - smarterclayton
           - robertgshaw2-redhat
+          - davidgs
+          - petecheslock
+      - name: "project-approvers"
+        members:
+          - ahg-g
+          - chcost
+          - smarterclayton
+          - robertgshaw2-redhat
+          - davidgs
+          - petecheslock
+          - jjasghar
