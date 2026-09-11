@@ -18,10 +18,23 @@ project_lead: "ahg-g" # TODO: AUTO-DETECTED — please verify
 maturity_log:
   - phase: "sandbox"
     date: "2026-03-12T00:00:00Z"
-    issue: "https://github.com/cncf/sandbox/issues/487" # TODO: AUTO-DETECTED — please verify
+    issue: "https://github.com/cncf/sandbox/issues/487" # verified
 
 repositories:
-  - "https://github.com/llm-d/llm-d"
+  - "https://github.com/llm-d/llm-d" #main repository
+  - "https://github.com/llm-d/llm-d-router" #router repository
+  - "https://github.com/llm-d/llm-d-kv-cache" #kv cache repository
+  - "https://github.com/llm-d/llm-d-latency-predictor" #latency predictor repository
+  - http://github.com/llm-d/llm-d-inference-payload-processor #inference payload processor repository
+  - "https://github.com/llm-d/llm-d-async" #async repository
+  - "https://github.com/llm-d/llm-d-workload-variant-autoscaler" #workload variant autoscaler repository
+  - "https://github.com/llm-d/llm-d-inference-sim" #inference simulator repository
+  - "https://github.com/llm-d/llm-d-prism" #prism repository
+  - "https://github.com/llm-d/llm-d-batch-gateway" #batch gateway repository
+  - "https://github.com/llm-d/llm-d-benchmarks" #benchmarks repository
+  - "https://github.com/llm-d/llm-d.github.io" #documentation repository
+  - "https://github.com/llm-d/llm-d-infra" #infrastructure repository
+  -
 
 website: "https://llm-d.ai/"
 
@@ -31,12 +44,13 @@ adopters:
   path: "https://github.com/llm-d/llm-d/blob/main/ADOPTERS.md"
 
 
-# TODO: Add package manager identifiers if your project is distributed via registries
-# package_managers:
-#   docker: "llm-d/llm-d"
+# No package managers:
 
 social:
   twitter: "https://twitter.com/_llm_d_"
+  linkedin: "https://www.linkedin.com/company/llm-d/"
+  reddit: "https://www.reddit.com/r/llm_d/"
+  bluesky: "https://bsky.app/profile/llm-d.ai"
 
 security:
   policy:
@@ -54,7 +68,7 @@ legal:
   license:
     path: "https://github.com/llm-d/llm-d/blob/main/LICENSE"
   identity_type:
-    has_dco: true # AUTO-DETECTED — please verify
+    has_dco: true
     has_cla: false # AUTO-DETECTED — please verify
     dco_url:
       path: "https://developercertificate.org/"
