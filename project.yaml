@@ -38,7 +38,7 @@ repositories:
 
 website: "https://llm-d.ai/"
 
-artwork: "https://landscape.cncf.io/logos/./llm-d.svg"
+artwork: "https://github.com/cncf/artwork/tree/main/projects/llm-d"
 
 adopters:
   path: "https://github.com/llm-d/llm-d/blob/main/ADOPTERS.md"
